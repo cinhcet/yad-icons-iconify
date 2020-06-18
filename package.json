@@ -1,0 +1,26 @@
+{
+  "name": "yad-icons-iconify",
+  "version": "0.0.1",
+  "description": "Iconify icons as webcomponents",
+  "dependencies": {
+    "@iconify/json": "^1.1.115",
+    "@iconify/json-tools": "^1.0.8"
+  },
+  "scripts": {
+    "postinstall": "node convert.js default"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cinhcet/yad-icons-iconify.git"
+  },
+  "keywords": [
+    "webcomponents",
+    "icons"
+  ],
+  "author": "cinhcet@gmail.com",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/cinhcet/yad-icons-iconify/issues"
+  },
+  "homepage": "https://github.com/cinhcet/yad-icons-iconify#readme"
+}
